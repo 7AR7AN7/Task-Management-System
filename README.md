@@ -2,7 +2,7 @@
 
 A complete full-stack task management application with Spring Boot backend, PostgreSQL database, React frontend, and JWT authentication.
 
-## 🚀 Features
+##  Features
 
 - **User Authentication**: JWT-based secure authentication
 - **Task Management**: Create, read, update, and delete tasks
@@ -12,7 +12,7 @@ A complete full-stack task management application with Spring Boot backend, Post
 - **Real-time Stats**: Dashboard with task statistics
 - **Responsive UI**: Modern, mobile-friendly interface
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Backend
 - **Framework**: Spring Boot 3.2.0
@@ -31,7 +31,7 @@ A complete full-stack task management application with Spring Boot backend, Post
 - **Containerization**: Docker & Docker Compose
 - **Web Server**: Nginx (for React)
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Java 17 or higher
 - Maven 3.6+
@@ -39,7 +39,7 @@ A complete full-stack task management application with Spring Boot backend, Post
 - PostgreSQL 15+
 - Docker & Docker Compose (optional)
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 ### Option 1: Using Docker (Recommended)
 
@@ -105,7 +105,7 @@ npm start
 
 Frontend will start on http://localhost:3000
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 taskmanager/
@@ -131,7 +131,7 @@ taskmanager/
 └── docker-compose.yml
 ```
 
-## 🔐 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register new user
@@ -145,7 +145,7 @@ taskmanager/
 - `DELETE /api/tasks/{id}` - Delete task
 - `GET /api/tasks/status/{status}` - Get tasks by status
 
-## 📝 Example API Usage
+##  Example API Usage
 
 ### Register User
 ```bash
@@ -182,7 +182,7 @@ curl -X POST http://localhost:8080/api/tasks \
   }'
 ```
 
-## 🎨 Frontend Features
+##  Frontend Features
 
 - **Login/Register**: User authentication forms
 - **Dashboard**: Overview with task statistics
@@ -190,14 +190,14 @@ curl -X POST http://localhost:8080/api/tasks \
 - **Task Form**: Create and edit tasks
 - **Responsive Design**: Works on desktop and mobile
 
-## 🔒 Security
+##  Security
 
 - Passwords are encrypted using BCrypt
 - JWT tokens for stateless authentication
 - Protected API endpoints
 - CORS configuration for frontend-backend communication
 
-## 🚀 Deployment
+##  Deployment
 
 ### Deploy to Cloud
 
@@ -218,7 +218,7 @@ For production, set these environment variables:
 **Frontend:**
 - `REACT_APP_API_URL`
 
-## 🧪 Testing
+##  Testing
 
 Run backend tests:
 ```bash
@@ -226,14 +226,14 @@ cd backend
 mvn test
 ```
 
-## 📚 Additional Resources
+##  Additional Resources
 
 - [Spring Boot Documentation](https://spring.io/projects/spring-boot)
 - [React Documentation](https://react.dev)
 - [JWT.io](https://jwt.io)
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -241,15 +241,15 @@ mvn test
 4. Push to the branch
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-Your Name
+Aryan Pathak
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Spring Boot team for the excellent framework
 - React team for the powerful frontend library
