@@ -245,7 +245,7 @@ mvn test
 
 This project is open source and available under the MIT License.
 
-## 👤 Author
+##  Author
 
 Aryan Pathak
 
